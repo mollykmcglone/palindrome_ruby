@@ -10,9 +10,11 @@ class String
     end
     reversed_string = reversed_characters.join('')
     if reversed_string == characters
-      true
+      # true
+      "is a palindrome"
     else
-      false
+      # false
+      "is not a palindrome"
     end
   end
 end
