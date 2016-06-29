@@ -9,6 +9,6 @@ end
 
 get('/answer') do
   @entry = params.fetch('entry')
-  @response = params.fetch('entry').palindromes?()
+  @feedback = params.fetch('entry').palindromes?()
   erb(:answer)
 end
